@@ -1,0 +1,99 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "type": "internal",
+      "xpubs": null,
+      "quorum": 0,
+      "key_index": 0,
+      "derive_rule": 0,
+      "id": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "alias": "BTM",
+      "vm_version": 1,
+      "issue_program": "",
+      "raw_definition_byte": "7b0a202022646563696d616c73223a20382c0a2020226465736372697074696f6e223a20224279746f6d204f6666696369616c204973737565222c0a2020226e616d65223a202242544d222c0a20202273796d626f6c223a202242544d220a7d",
+      "definition": {
+        "decimals": 8,
+        "description": "Bytom Official Issue",
+        "name": "BTM",
+        "symbol": "BTM"
+      },
+      "limit_height": 0
+    },
+    {
+      "type": "asset",
+      "xpubs": [
+        "1392081c250ce7eecc7878b3f4f03d4ea5d588c4740962e62b4ae79c2c0c3c489ee4b6e3a5f09245ca4c4f2b7a575467defe300415f12ea278853686deb94a55"
+      ],
+      "quorum": 1,
+      "key_index": 4,
+      "derive_rule": 0,
+      "id": "0d69ce7c9b210024a3988fe3367011948af2a18b40a4e0d8814c544b50a28d37",
+      "alias": "T11",
+      "vm_version": 1,
+      "issue_program": "014bcda069ae208ad31e4b8495987d85e6b6952b1a676c9a200dc48a7b552c6985d725123316435151ad",
+      "raw_definition_byte": "7b0a202022646563696d616c73223a20382c0a2020226465736372697074696f6e223a207b0a20202020227474223a202274657374220a20207d2c0a2020226e616d65223a2022743131222c0a20202271756f72756d223a20312c0a20202272656973737565223a202266616c7365222c0a20202273796d626f6c223a2022543131220a7d",
+      "definition": {
+        "decimals": 8,
+        "description": {
+          "tt": "test"
+        },
+        "name": "t11",
+        "quorum": 1,
+        "reissue": "false",
+        "symbol": "T11"
+      },
+      "limit_height": 75
+    },
+    {
+      "type": "asset",
+      "xpubs": [
+        "1392081c250ce7eecc7878b3f4f03d4ea5d588c4740962e62b4ae79c2c0c3c489ee4b6e3a5f09245ca4c4f2b7a575467defe300415f12ea278853686deb94a55"
+      ],
+      "quorum": 1,
+      "key_index": 5,
+      "derive_rule": 0,
+      "id": "a16bf5d07f51c8d188cc352dd8f1a6e72c80ab11fd260c4efa9ad3b72333c9f4",
+      "alias": "T12",
+      "vm_version": 1,
+      "issue_program": "0162cda069ae209090044fd460c2ee8ffc1bcb76596cf2d1f6b54442b73c61fa315f879227da3b5151ad",
+      "raw_definition_byte": "7b0a202022646563696d616c73223a20382c0a2020226465736372697074696f6e223a207b0a20202020227474223a2022313233343536220a20207d2c0a2020226e616d65223a2022743132222c0a20202271756f72756d223a20312c0a20202272656973737565223a202266616c7365222c0a20202273796d626f6c223a2022543132220a7d",
+      "definition": {
+        "decimals": 8,
+        "description": {
+          "tt": "123456"
+        },
+        "name": "t12",
+        "quorum": 1,
+        "reissue": "false",
+        "symbol": "T12"
+      },
+      "limit_height": 98
+    },
+    {
+      "type": "asset",
+      "xpubs": [
+        "1392081c250ce7eecc7878b3f4f03d4ea5d588c4740962e62b4ae79c2c0c3c489ee4b6e3a5f09245ca4c4f2b7a575467defe300415f12ea278853686deb94a55"
+      ],
+      "quorum": 1,
+      "key_index": 1,
+      "derive_rule": 0,
+      "id": "d8a77906f7268db512f60badfe9606bfec54c603c23e4c74e6c02f95f564c217",
+      "alias": "T1",
+      "vm_version": 1,
+      "issue_program": "0139cda069ae20bfeaf346eab6602dec54e62e6e268c59ba881cf513d2814beac28fac17f947255151ad",
+      "raw_definition_byte": "7b0a202022646563696d616c73223a20382c0a2020226465736372697074696f6e223a207b0a202020202274223a202274657374220a20207d2c0a2020226e616d65223a20227431222c0a20202271756f72756d223a20312c0a20202272656973737565223a202266616c7365222c0a20202273796d626f6c223a20225431220a7d",
+      "definition": {
+        "decimals": 8,
+        "description": {
+          "t": "test"
+        },
+        "name": "t1",
+        "quorum": 1,
+        "reissue": "false",
+        "symbol": "T1"
+      },
+      "limit_height": 57
+    }
+  ]
+}

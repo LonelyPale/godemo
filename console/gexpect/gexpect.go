@@ -30,6 +30,7 @@ func main() {
 		s, err := child.ReadLine()
 		if err != nil {
 			if err.Error() == "EOF" {
+				log.Println("<EOF>")
 				break
 			} else {
 				log.Fatal(err)

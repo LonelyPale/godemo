@@ -1,0 +1,7 @@
+[[groups]]
+tmp_dir = "/tmp1"     # 缓存目录, Temporary directory for plotting files [default: .]
+final_dir = "/plot1"  # 输出目录, Final directory for plots (relative or absolute)  [default: .]
+
+[[groups]]
+tmp_dir = "/tmp2"     # 缓存目录, Temporary directory for plotting files [default: .]
+final_dir = "/plot2"  # 输出目录, Final directory for plots (relative or absolute)  [default: .]
