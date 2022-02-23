@@ -107,6 +107,24 @@ func test8() {
 	fmt.Println([]int{} == nil, []byte("") == nil)
 }
 
+func test9() {
+	//a := []int{1,2,3} //#1
+	//var a = make([]int, 0) //#2
+	var a = make([]int, 10) //#3 容量够大，不扩容的情况下会更改a、b互相修改对方值的情况
+	a = append(a, 1, 2, 3)
+	b := a
+	fmt.Printf("a:%d,%d %v\n", len(a), cap(a), a)
+	fmt.Printf("b:%d,%d %v\n", len(b), cap(b), b)
+
+	a = append(a, 4, 5, 6)
+	fmt.Printf("a:%d,%d %v\n", len(a), cap(a), a)
+	fmt.Printf("b:%d,%d %v\n", len(b), cap(b), b)
+
+	b = append(b, 1)
+	fmt.Printf("a:%d,%d %v\n", len(a), cap(a), a)
+	fmt.Printf("b:%d,%d %v\n", len(b), cap(b), b)
+}
+
 func main() {
 	//test1()
 	//test2()
@@ -115,5 +133,6 @@ func main() {
 	//test5()
 	//test6()
 	//test7()
-	test8()
+	//test8()
+	test9()
 }

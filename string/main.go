@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 	"unicode/utf8"
 )
 
@@ -19,4 +20,7 @@ func main() {
 
 	//通过rune类型处理unicode字符
 	fmt.Println("rune:", len([]rune(str)))
+
+	tmp := strings.Split("888", "/")
+	fmt.Println(len(tmp), tmp)
 }

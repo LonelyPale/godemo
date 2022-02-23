@@ -3,8 +3,15 @@ package main
 import "fmt"
 
 func main() {
+	test()
 	//test1()
-	test2()
+	//test2()
+}
+
+func test() {
+	for i := 0; i < 4; i++ {
+		defer fmt.Println(i)
+	}
 }
 
 func test1() {

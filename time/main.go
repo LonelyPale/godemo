@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	test()
 	//testTimestamp()
 	test0()
 }
@@ -15,6 +16,8 @@ func test() {
 	fmt.Println(fmt.Sprintf(`ISODate("%s")`, time.Now().AddDate(0, 0, -1).Format(time.RFC3339)))
 
 	fmt.Println(time.Now().UTC().Format("2006-01-02T15:04:05-0700"))
+
+	println("??", 30*24*60*60)
 }
 
 func test0() {

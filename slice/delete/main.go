@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	test()
+	test3()
 }
 
 func test() {
@@ -45,4 +45,13 @@ func test2() {
 	}
 
 	fmt.Println(arr)
+}
+
+func test3() {
+	arr := []int{1, 2, 3, 4, 5}
+	printArr(arr)
+}
+
+func printArr(arr []int) {
+	fmt.Printf("len=%v, cap=%v, %v", len(arr), cap(arr), arr)
 }

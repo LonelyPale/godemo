@@ -9,9 +9,12 @@ func main() {
 
 func test() {
 	m := make(map[int]string, 2)
-	fmt.Println(len(m), m)
+	fmt.Printf("len=%d, %v\n", len(m), m)
 	m[1] = "a"
 	m[2] = "b"
 	m[3] = "c"
-	fmt.Println(len(m), m)
+	fmt.Printf("len=%d, %v\n", len(m), m)
+	delete(m, 1)
+	fmt.Printf("len=%d, %v\n", len(m), m)
+
 }
