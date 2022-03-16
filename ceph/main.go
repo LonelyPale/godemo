@@ -44,7 +44,7 @@ func main() {
 	client := s3.NewFromConfig(cfg)
 
 	//PutObject(client)
-	//PutString(client)
+	PutString(client)
 	//GetFile(client)
 	GetObject(client)
 	ListBuckets(client)
@@ -168,7 +168,7 @@ func PutObject(client *s3.Client) {
 func PutString(client *s3.Client) {
 	bucket := "test"
 	key := "abc"
-	buf := bytes.NewBufferString("123abc! 你好，中国🇨🇳！")
+	buf := bytes.NewBufferString("123abc! 你好，中国🇨🇳🌎🌍🌏¼½¾³²∞√㏒！")
 
 	input := &s3.PutObjectInput{
 		Bucket:        aws.String(bucket),
