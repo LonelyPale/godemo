@@ -4,9 +4,10 @@ go 1.18
 
 require (
 	fyne.io/fyne v1.4.2
+	fyne.io/fyne/v2 v2.1.3
 	github.com/360EntSecGroup-Skylar/excelize/v2 v2.3.1
 	github.com/AllenDang/giu v0.5.4
-	github.com/BurntSushi/toml v0.3.1
+	github.com/BurntSushi/toml v0.4.1
 	github.com/LonelyPale/goutils v0.0.8-0.20210608065153-f16936fc06f5
 	github.com/Shopify/sarama v1.27.0
 	github.com/ThomasRooney/gexpect v0.0.0-20161231170123-5482f0350944
@@ -86,12 +87,13 @@ require (
 	github.com/eapache/go-xerial-snappy v0.0.0-20180814174437-776d5712da21 // indirect
 	github.com/eapache/queue v1.1.0 // indirect
 	github.com/faiface/mainthread v0.0.0-20171120011319-8b78f0a41ae3 // indirect
+	github.com/fredbi/uri v0.0.0-20181227131451-3dcfdacbaaf3 // indirect
 	github.com/fyne-io/mobile v0.1.2-0.20201127155338-06aeb98410cc // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/glycerine/go-unsnap-stream v0.0.0-20181221182339-f9677308dec2 // indirect
-	github.com/go-gl/gl v0.0.0-20210501111010-69f74958bac0 // indirect
-	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20210410170116-ea3d685f79fb // indirect
-	github.com/go-ole/go-ole v1.2.4 // indirect
+	github.com/go-gl/gl v0.0.0-20210813123233-e4099ee2221f // indirect
+	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20211024062804-40e447a793be // indirect
+	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/go-playground/locales v0.13.0 // indirect
 	github.com/go-playground/universal-translator v0.17.0 // indirect
 	github.com/go-resty/resty/v2 v2.3.0 // indirect
@@ -189,6 +191,7 @@ require (
 	github.com/whyrusleeping/tar-utils v0.0.0-20180509141711-8c6c8ba81d5c // indirect
 	github.com/willf/bitset v1.1.11 // indirect
 	github.com/xuri/efp v0.0.0-20200605144744-ba689101faaf // indirect
+	github.com/yuin/goldmark v1.3.8 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
 	go.mongodb.org/mongo-driver v1.5.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
