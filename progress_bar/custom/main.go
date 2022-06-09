@@ -15,5 +15,5 @@ func main() {
 		fmt.Printf(bar, strings.Repeat("=", i)+">")
 		time.Sleep(100 * time.Millisecond)
 	}
-	fmt.Printf(bar+" Done!", strings.Repeat("=", col))
+	fmt.Printf(bar+" Done!\n", strings.Repeat("=", col))
 }
