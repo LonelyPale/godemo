@@ -3,12 +3,12 @@ module github.com/LonelyPale/godemo
 go 1.18
 
 require (
-	fyne.io/fyne v1.4.2
+	fyne.io/fyne v1.4.3
 	fyne.io/fyne/v2 v2.1.3
 	github.com/360EntSecGroup-Skylar/excelize/v2 v2.3.1
 	github.com/AllenDang/giu v0.5.4
 	github.com/BurntSushi/toml v0.4.1
-	github.com/LonelyPale/goutils v0.0.8-0.20210608065153-f16936fc06f5
+	github.com/LonelyPale/goutils v0.0.9
 	github.com/Shopify/sarama v1.27.0
 	github.com/ThomasRooney/gexpect v0.0.0-20161231170123-5482f0350944
 	github.com/astaxie/beego v1.12.3
@@ -21,17 +21,20 @@ require (
 	github.com/docker/docker v20.10.12+incompatible
 	github.com/eclipse/paho.mqtt.golang v1.3.2
 	github.com/emirpasic/gods v1.12.0
+	github.com/faiface/beep v1.1.0
 	github.com/fatih/color v1.12.0
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/gin-contrib/sessions v0.0.3
-	github.com/gin-gonic/gin v1.6.3
-	github.com/go-playground/validator/v10 v10.3.0
+	github.com/gin-gonic/gin v1.7.2
+	github.com/go-playground/validator/v10 v10.10.1
 	github.com/go-vgo/robotgo v0.93.1
 	github.com/google/goexpect v0.0.0-20200816234442-b5b77125c2c5
 	github.com/google/goterm v0.0.0-20200907032337-555d40f16ae2
+	github.com/hajimehoshi/oto v0.7.1
 	github.com/ipfs/go-ipfs-api v0.2.0
 	github.com/json-iterator/go v1.1.12
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
+	github.com/lonelypale/goutils v0.0.10-0.20220321085518-6d2706c28e71
 	github.com/minio/sio v0.3.0
 	github.com/mitchellh/go-ps v1.0.0
 	github.com/panjf2000/ants/v2 v2.4.3
@@ -41,10 +44,11 @@ require (
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/cobra v1.1.3
 	github.com/spf13/viper v1.7.0
+	github.com/tosone/minimp3 v1.0.1
 	github.com/traefik/yaegi v0.9.19
-	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5
-	golang.org/x/net v0.0.0-20211216030914-fe4d6282115f
-	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e
+	golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd
+	golang.org/x/net v0.0.0-20220225172249-27dd8689420f
+	golang.org/x/sys v0.0.0-20220319134239-a9b59b0215f8
 )
 
 require (
@@ -88,27 +92,30 @@ require (
 	github.com/eapache/queue v1.1.0 // indirect
 	github.com/faiface/mainthread v0.0.0-20171120011319-8b78f0a41ae3 // indirect
 	github.com/fredbi/uri v0.0.0-20181227131451-3dcfdacbaaf3 // indirect
-	github.com/fyne-io/mobile v0.1.2-0.20201127155338-06aeb98410cc // indirect
+	github.com/fyne-io/mobile v0.1.2 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/glycerine/go-unsnap-stream v0.0.0-20181221182339-f9677308dec2 // indirect
 	github.com/go-gl/gl v0.0.0-20210813123233-e4099ee2221f // indirect
 	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20211024062804-40e447a793be // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
-	github.com/go-playground/locales v0.13.0 // indirect
-	github.com/go-playground/universal-translator v0.17.0 // indirect
+	github.com/go-playground/locales v0.14.0 // indirect
+	github.com/go-playground/universal-translator v0.18.0 // indirect
+	github.com/go-redis/redis v6.15.9+incompatible // indirect
 	github.com/go-resty/resty/v2 v2.3.0 // indirect
 	github.com/go-spring/spring-utils v1.0.5 // indirect
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/godbus/dbus/v5 v5.0.6 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/goki/freetype v0.0.0-20181231101311-fa8a33aabaff // indirect
+	github.com/golang-jwt/jwt/v4 v4.0.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.1 // indirect
-	github.com/google/uuid v1.2.0 // indirect
+	github.com/google/uuid v1.3.0 // indirect
 	github.com/gorilla/context v1.1.1 // indirect
 	github.com/gorilla/securecookie v1.1.1 // indirect
 	github.com/gorilla/sessions v1.1.3 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
+	github.com/hajimehoshi/go-mp3 v0.3.0 // indirect
 	github.com/hashicorp/go-uuid v1.0.2 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
@@ -120,7 +127,7 @@ require (
 	github.com/jmhodges/levigo v1.0.0 // indirect
 	github.com/klauspost/compress v1.11.13 // indirect
 	github.com/kr/pty v1.1.5 // indirect
-	github.com/leodido/go-urn v1.2.0 // indirect
+	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/libp2p/go-buffer-pool v0.0.2 // indirect
 	github.com/libp2p/go-flow-metrics v0.0.3 // indirect
 	github.com/libp2p/go-libp2p-core v0.6.1 // indirect
@@ -170,7 +177,7 @@ require (
 	github.com/spacemonkeygo/spacelog v0.0.0-20180420211403-2296661a0572 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/spf13/afero v1.2.2 // indirect
-	github.com/spf13/cast v1.3.1 // indirect
+	github.com/spf13/cast v1.4.1 // indirect
 	github.com/spf13/jwalterweatherman v1.0.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/srwiley/oksvg v0.0.0-20200311192757-870daf9aa564 // indirect
@@ -186,18 +193,19 @@ require (
 	github.com/vcaesar/gops v0.10.2 // indirect
 	github.com/vcaesar/imgo v0.12.1 // indirect
 	github.com/vcaesar/tt v0.11.0 // indirect
-	github.com/vmihailenco/msgpack/v5 v5.0.0-alpha.2 // indirect
-	github.com/vmihailenco/tagparser v0.1.1 // indirect
+	github.com/vmihailenco/msgpack/v5 v5.3.5 // indirect
+	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	github.com/whyrusleeping/tar-utils v0.0.0-20180509141711-8c6c8ba81d5c // indirect
 	github.com/willf/bitset v1.1.11 // indirect
 	github.com/xuri/efp v0.0.0-20200605144744-ba689101faaf // indirect
 	github.com/yuin/goldmark v1.3.8 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
-	go.mongodb.org/mongo-driver v1.5.0 // indirect
+	go.mongodb.org/mongo-driver v1.7.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
+	golang.org/x/exp v0.0.0-20200224162631-6cc2880d07d6 // indirect
 	golang.org/x/image v0.0.0-20201208152932-35266b937fa6 // indirect
+	golang.org/x/mobile v0.0.0-20190719004257-d2bd2a29d028 // indirect
 	golang.org/x/text v0.3.7 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20211208223120-3a66f561d7aa // indirect
 	google.golang.org/grpc v1.43.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect

@@ -45,6 +45,7 @@ func test1() {
 
 func test2(s ...[]int) {
 	fmt.Println(s)
+	fmt.Println(append(make([][]int, 0), s...))
 
 	for _, v := range s {
 		fmt.Println(v)
